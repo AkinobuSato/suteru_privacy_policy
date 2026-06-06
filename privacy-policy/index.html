@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SUTERU（ステル）のプライバシーポリシー。不要品の撮影・AI判定・処分方法確認アプリにおける個人情報の取扱いについて説明します。">
+  <title>プライバシーポリシー | SUTERU</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --color-primary: #2e7d32;
+      --color-primary-light: #26b99a;
+      --color-text: #1a1a1a;
+      --color-text-muted: #555;
+      --color-border: #e0e0e0;
+      --color-bg: #fafafa;
+      --color-card: #ffffff;
+      --max-width: 720px;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--color-text);
+      background: var(--color-bg);
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+      color: #fff;
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 0.5rem;
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    header p {
+      margin: 0;
+      opacity: 0.92;
+      font-size: 0.95rem;
+    }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    .meta {
+      background: var(--color-card);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+      color: var(--color-text-muted);
+    }
+
+    .meta p {
+      margin: 0.25rem 0;
+    }
+
+    nav.toc {
+      background: var(--color-card);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    nav.toc h2 {
+      margin: 0 0 0.75rem;
+      font-size: 1rem;
+      color: var(--color-primary);
+    }
+
+    nav.toc ol {
+      margin: 0;
+      padding-left: 1.25rem;
+    }
+
+    nav.toc li {
+      margin: 0.35rem 0;
+    }
+
+    nav.toc a {
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+
+    nav.toc a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    section h2 {
+      font-size: 1.25rem;
+      color: var(--color-primary);
+      border-bottom: 2px solid var(--color-primary-light);
+      padding-bottom: 0.4rem;
+      margin: 0 0 1rem;
+    }
+
+    section h3 {
+      font-size: 1.05rem;
+      margin: 1.5rem 0 0.75rem;
+    }
+
+    p {
+      margin: 0 0 1rem;
+    }
+
+    ul,
+    ol {
+      margin: 0 0 1rem;
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin: 0.35rem 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.95rem;
+      background: var(--color-card);
+    }
+
+    th,
+    td {
+      border: 1px solid var(--color-border);
+      padding: 0.65rem 0.85rem;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f0f7f0;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    a {
+      color: var(--color-primary);
+    }
+
+    .note {
+      background: #fff8e1;
+      border-left: 4px solid #ffc107;
+      padding: 0.85rem 1rem;
+      margin: 1rem 0;
+      font-size: 0.95rem;
+      border-radius: 0 4px 4px 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      font-size: 0.85rem;
+      color: var(--color-text-muted);
+      border-top: 1px solid var(--color-border);
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      table {
+        font-size: 0.875rem;
+      }
+
+      th,
+      td {
+        padding: 0.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>プライバシーポリシー</h1>
+    <p>SUTERU（ステル）</p>
+  </header>
+
+  <main>
+    <div class="meta">
+      <p><strong>制定日：</strong>2026年6月6日</p>
+      <p><strong>最終更新日：</strong>2026年6月6日</p>
+      <p><strong>運営者：</strong>Akinobu Sato</p>
+      <p><strong>お問い合わせ：</strong>marisuke.ak@gmail.com</p>
+    </div>
+
+    <nav class="toc" aria-label="目次">
+      <h2>目次</h2>
+      <ol>
+        <li><a href="#section1">はじめに</a></li>
+        <li><a href="#section2">適用範囲</a></li>
+        <li><a href="#section3">取得する情報</a></li>
+        <li><a href="#section4">情報の利用目的</a></li>
+        <li><a href="#section5">情報の保存場所と保存期間</a></li>
+        <li><a href="#section6">第三者への提供・外部送信</a></li>
+        <li><a href="#section7">端末の権限</a></li>
+        <li><a href="#section8">第三者サービス・SDK</a></li>
+        <li><a href="#section9">AI 判定に関する注意事項</a></li>
+        <li><a href="#section10">利用者による情報の管理・削除</a></li>
+        <li><a href="#section11">安全管理措置</a></li>
+        <li><a href="#section12">個人情報の開示等の請求</a></li>
+        <li><a href="#section13">未成年者の利用</a></li>
+        <li><a href="#section14">プライバシーポリシーの変更</a></li>
+        <li><a href="#section15">お問い合わせ</a></li>
+      </ol>
+    </nav>
+
+    <section id="section1">
+      <h2>1. はじめに</h2>
+      <p>
+        本プライバシーポリシー（以下「本ポリシー」）は、【運営者名を記載】（以下「当社」）が提供する
+        モバイルアプリケーション「SUTERU（ステル）」（以下「本アプリ」）において、
+        利用者の情報をどのように取り扱うかを定めるものです。
+      </p>
+      <p>
+        本アプリは、不要品の撮影・AI による物品判定・処分方法の確認・履歴の保存などを提供するアプリです。
+        当社は、利用者のプライバシーを尊重し、個人情報の保護に関する法令およびガイドラインを遵守します。
+      </p>
+      <p>
+        本アプリは、原則として<strong>利用者の端末内でのみ</strong>データを処理・保存し、
+        当社が運営するサーバーへ利用者の情報を送信することはありません。
+        また、利用者アカウントの登録、広告の表示、行動分析（アナリティクス）のためのトラッキングは行いません。
+      </p>
+    </section>
+
+    <section id="section2">
+      <h2>2. 適用範囲</h2>
+      <p>本ポリシーは、本アプリの利用に関して適用されます。</p>
+      <ul>
+        <li>対象プラットフォーム：iOS（iOS 15.5 以降）</li>
+        <li>本ポリシーは、本アプリ内からリンクされる外部サイト（自治体の公式サイト等）には適用されません。外部サイトの取扱いについては、各サイトのプライバシーポリシーをご確認ください。</li>
+      </ul>
+    </section>
+
+    <section id="section3">
+      <h2>3. 取得する情報</h2>
+      <p>
+        本アプリは、サービス提供に必要な範囲で以下の情報を取得・生成します。
+        いずれも<strong>利用者の端末内に保存</strong>され、当社のサーバーへ送信されることはありません。
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>情報の種類</th>
+            <th>内容</th>
+            <th>取得方法</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>撮影・選択した画像</td>
+            <td>カメラで撮影した、または写真ライブラリから選択した不要品の画像データ</td>
+            <td>利用者の操作に基づく（カメラ・写真ライブラリへのアクセス）</td>
+          </tr>
+          <tr>
+            <td>AI 判定結果</td>
+            <td>物品名、カテゴリ、状態（新品・良い・普通・傷あり等）、売れそう度、処分方法の提案、寄付可否、判定の信頼度など</td>
+            <td>端末内 AI による自動生成</td>
+          </tr>
+          <tr>
+            <td>履歴データ</td>
+            <td>上記画像への参照パス、判定結果、記録日時などを含む履歴情報</td>
+            <td>利用者が判定結果を保存した場合に端末内へ保存</td>
+          </tr>
+          <tr>
+            <td>地域設定</td>
+            <td>お住まいの区または市の名称（東京都内の 23 区・26 市から選択）</td>
+            <td>利用者が設定画面で入力・選択</td>
+          </tr>
+          <tr>
+            <td>参考情報の表示結果</td>
+            <td>粗大ごみ費用の目安、中古品相場の目安など（アプリ内蔵データに基づく計算結果）</td>
+            <td>端末内データに基づく自動表示</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>取得しない情報</h3>
+      <p>本アプリは、以下の情報を取得しません。</p>
+      <ul>
+        <li>氏名、住所、電話番号、メールアドレス等、利用者を直接特定できる個人情報</li>
+        <li>位置情報（GPS 等）</li>
+        <li>連絡先、カレンダー、マイク、Bluetooth 等、その他端末の機能・データ</li>
+        <li>利用者アカウント情報（本アプリにログイン機能はありません）</li>
+        <li>広告識別子（IDFA 等）を用いたトラッキング情報</li>
+      </ul>
+
+      <div class="note">
+        <strong>ご注意：</strong>
+        撮影した画像に、利用者本人や第三者の顔、住所が写った名札・送り状、車両ナンバー等が含まれる場合、
+        それらは個人を特定しうる情報となり得ます。本アプリの利用にあたっては、
+        不要品のみが写るよう配慮いただくことを推奨します。
+      </div>
+    </section>
+
+    <section id="section4">
+      <h2>4. 情報の利用目的</h2>
+      <p>取得・生成した情報は、以下の目的でのみ利用します。</p>
+      <ol>
+        <li>撮影・選択された画像に対する AI による物品判定および状態判定の実行</li>
+        <li>判定結果（売却・処分・寄付に関する参考情報）の表示</li>
+        <li>利用者が設定した地域に基づく粗大ごみ費用目安等の表示</li>
+        <li>利用者が保存した判定履歴の表示・管理</li>
+        <li>本アプリの機能改善および不具合対応（ただし、利用者データを当社サーバーへ送信することなく、端末内で完結する範囲に限ります）</li>
+      </ol>
+      <p>
+        上記の目的以外で利用者の情報を利用することはありません。
+        マーケティング目的での利用、第三者への販売、プロファイリング（利用者の特性に基づく自動的な分析・予測）も行いません。
+      </p>
+    </section>
+
+    <section id="section5">
+      <h2>5. 情報の保存場所と保存期間</h2>
+
+      <h3>5.1 保存場所</h3>
+      <p>
+        本アプリで取得・生成されるすべての情報は、利用者の端末内（アプリ専用の保存領域）に保存されます。
+        具体的には以下のとおりです。
+      </p>
+      <ul>
+        <li><strong>画像データ：</strong>端末のアプリケーションドキュメント領域内の専用フォルダ</li>
+        <li><strong>履歴・設定データ：</strong>端末内データベース（Hive）によるローカル保存</li>
+        <li><strong>AI モデル・参考データ：</strong>アプリに同梱されたデータ（処分方法、自治体料金、相場情報等）</li>
+      </ul>
+      <p>
+        当社は、利用者の情報をクラウドサーバー、外部ストレージサービス等に保存しません。
+      </p>
+
+      <h3>5.2 保存期間</h3>
+      <ul>
+        <li><strong>履歴データ・画像：</strong>利用者が削除するまで、または本アプリをアンインストールするまで端末内に保持されます。</li>
+        <li><strong>地域設定：</strong>利用者が変更または削除するまで、または本アプリをアンインストールするまで保持されます。</li>
+        <li><strong>一時的な処理データ：</strong>AI 判定の処理中にメモリ上で一時的に使用されるデータは、処理完了後に破棄されます。</li>
+      </ul>
+      <p>
+        本アプリをアンインストールした場合、端末内に保存されていた画像・履歴・設定データは、
+        原則として端末から削除されます（OS の仕様により完全な削除が保証されない場合があります）。
+      </p>
+    </section>
+
+    <section id="section6">
+      <h2>6. 第三者への提供・外部送信</h2>
+      <p>
+        当社は、法令に基づく場合を除き、利用者の情報を第三者に提供しません。
+      </p>
+      <p>
+        本アプリは、利用者の画像・判定結果・履歴・設定情報等を<strong>当社または第三者のサーバーへ送信しません</strong>。
+        インターネット通信を用いたデータの収集・同期機能は実装されていません。
+      </p>
+      <p>
+        ただし、端末内で AI 判定を実行するために Google ML Kit（端末内処理モデル）等の
+        第三者提供のソフトウェア開発キット（SDK）を使用しています。
+        詳細は「8. 第三者サービス・SDK」をご参照ください。
+      </p>
+    </section>
+
+    <section id="section7">
+      <h2>7. 端末の権限</h2>
+      <p>本アプリは、以下の端末機能へのアクセス許可を求める場合があります。</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>権限</th>
+            <th>利用目的</th>
+            <th>必須／任意</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>カメラ</td>
+            <td>不要品を撮影し、AI 判定を行うため</td>
+            <td>カメラ撮影を利用する場合は必須</td>
+          </tr>
+          <tr>
+            <td>写真ライブラリ</td>
+            <td>端末内の既存写真から不要品の画像を選択し、AI 判定を行うため</td>
+            <td>写真選択を利用する場合は必須</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        上記の権限は、利用者が端末の設定からいつでも取り消すことができます。
+        権限を取り消した場合、該当する機能（カメラ撮影または写真選択）が利用できなくなることがありますが、
+        それ以外の機能への影響は限定的です。
+      </p>
+    </section>
+
+    <section id="section8">
+      <h2>8. 第三者サービス・SDK</h2>
+      <p>
+        本アプリでは、端末内での AI 処理のために以下の第三者サービス・SDK を使用しています。
+        いずれも<strong>端末内（オンデバイス）で処理</strong>が行われ、
+        利用者の画像が判定目的で外部サーバーへ送信されることはありません。
+      </p>
+
+      <h3>8.1 Google ML Kit（Image Labeling）</h3>
+      <ul>
+        <li><strong>提供者：</strong>Google LLC</li>
+        <li><strong>利用目的：</strong>撮影・選択された画像から物品を認識し、カテゴリ・物品名を推定するため</li>
+        <li><strong>処理場所：</strong>利用者の端末内（オンデバイスモデル）</li>
+        <li><strong>送信される情報：</strong>本アプリの AI 判定において、画像データを Google のサーバーへ送信することはありません</li>
+        <li><strong>プライバシーポリシー：</strong><a href="https://policies.google.com/privacy" target="_blank"
+            rel="noopener noreferrer">Google プライバシーポリシー</a></li>
+      </ul>
+
+      <h3>8.2 TensorFlow Lite</h3>
+      <ul>
+        <li><strong>提供者：</strong>Google LLC（オープンソースライブラリ）</li>
+        <li><strong>利用目的：</strong>物品の状態（新品・良い・普通・傷あり等）を端末内 AI モデルで判定するため</li>
+        <li><strong>処理場所：</strong>利用者の端末内</li>
+        <li><strong>送信される情報：</strong>なし（すべて端末内で完結）</li>
+      </ul>
+
+      <h3>8.3 その他のライブラリ</h3>
+      <p>
+        画像選択（image_picker）、ローカルデータ保存（Hive）、ファイル管理（path_provider）等の
+        オープンソースライブラリを使用していますが、これらは利用者データを外部へ送信する目的では使用していません。
+      </p>
+    </section>
+
+    <section id="section9">
+      <h2>9. AI 判定に関する注意事項</h2>
+      <p>
+        本アプリの AI 判定結果（物品名、カテゴリ、状態、売れそう度、処分方法、粗大ごみ費用目安、中古品相場目安等）は、
+        すべて<strong>参考情報</strong>です。正確性・完全性・最新性を保証するものではありません。
+      </p>
+      <ul>
+        <li>AI 判定は誤認識する場合があります。</li>
+        <li>粗大ごみの費用・処分方法は自治体の規定により変更される場合があります。申込・処分前には必ずお住まいの自治体の公式情報をご確認ください。</li>
+        <li>中古品相場はアプリ内蔵の参考データに基づく目安であり、実際の取引価格を保証するものではありません。</li>
+      </ul>
+      <p>
+        AI 判定の処理はすべて端末内で行われ、判定に使用された画像が外部へ送信されることはありません。
+      </p>
+    </section>
+
+    <section id="section10">
+      <h2>10. 利用者による情報の管理・削除</h2>
+      <p>利用者は、本アプリ内の設定画面から以下の操作を行うことができます。</p>
+      <ul>
+        <li><strong>履歴の個別削除：</strong>履歴画面から個別の記録を削除できます（関連する画像データも端末内から削除されます）。</li>
+        <li><strong>履歴の一括削除：</strong>設定画面の「履歴をすべて削除」から、すべての履歴および保存済み画像を削除できます。</li>
+        <li><strong>地域設定の変更：</strong>設定画面からお住まいの区または市を変更できます。</li>
+      </ul>
+      <p>
+        本アプリをアンインストールすることにより、端末内に保存されたすべてのデータを削除することも可能です。
+        削除したデータの復元は、当社では行えません（バックアップ機能は提供していません）。
+      </p>
+    </section>
+
+    <section id="section11">
+      <h2>11. 安全管理措置</h2>
+      <p>当社は、利用者の情報の漏えい、滅失、毀損等を防止するため、以下の措置を講じています。</p>
+      <ul>
+        <li>利用者データを当社サーバーへ送信・保存しないアーキテクチャの採用</li>
+        <li>端末内保存領域へのアクセスをアプリのサンドボックス内に限定</li>
+        <li>不要な権限（位置情報、連絡先等）の要求を行わない設計</li>
+        <li>広告 SDK、行動分析 SDK、クラッシュレポート SDK 等の導入を行わない設計</li>
+      </ul>
+      <p>
+        ただし、利用者端末の紛失・盗難、OS の脆弱性、マルウェア感染等により、
+        端末内データが第三者にアクセスされるリスクは完全には排除できません。
+        端末のパスコード設定等、端末自体のセキュリティ管理も併せてお願いいたします。
+      </p>
+    </section>
+
+    <section id="section12">
+      <h2>12. 個人情報の開示等の請求</h2>
+      <p>
+        本アプリは、利用者の情報を当社のサーバー上に保持していないため、
+        当社が直接保有・管理する利用者の個人情報は存在しません。
+      </p>
+      <p>
+        利用者が端末内に保存されている自身のデータ（履歴、画像、設定等）について確認・削除を希望される場合は、
+        本アプリ内の機能（「10. 利用者による情報の管理・削除」参照）または端末の設定・アプリのアンインストールにより
+        ご自身で管理いただけます。
+      </p>
+      <p>
+        個人情報の保護に関する法律（個人情報保護法）に基づく開示・訂正・削除等の請求については、
+        下記お問い合わせ先までご連絡ください。合理的な範囲で対応いたします。
+      </p>
+    </section>
+
+    <section id="section13">
+      <h2>13. 未成年者の利用</h2>
+      <p>
+        本アプリは、未成年者も利用できますが、13 歳未満のお子様が本アプリを利用される場合は、
+        保護者の方の同意と監督のもとでご利用ください。
+      </p>
+      <p>
+        当社は、13 歳未満のお子様から故意に個人情報を収集することはありません。
+        13 歳未満のお子様から個人情報が収集されたことが判明した場合は、
+        速やかに当該情報の削除等の措置を講じます。
+      </p>
+    </section>
+
+    <section id="section14">
+      <h2>14. プライバシーポリシーの変更</h2>
+      <p>
+        当社は、法令の改正、本アプリの機能追加・変更、その他必要に応じて、
+        本ポリシーの内容を変更することがあります。
+      </p>
+      <p>
+        変更後の本ポリシーは、本ページに掲載した時点で効力を生じるものとします。
+        重要な変更を行う場合は、本アプリ内での通知または App Store 上のアップデート説明等により、
+        利用者へお知らせします。
+      </p>
+      <p>
+        変更後も本アプリを継続してご利用いただいた場合、変更後の本ポリシーに同意いただいたものとみなします。
+        定期的に本ページをご確認ください。
+      </p>
+    </section>
+
+    <section id="section15">
+      <h2>15. お問い合わせ</h2>
+      <p>
+        本ポリシーに関するご質問、ご意見、個人情報の取扱いに関するお問い合わせは、
+        下記までご連絡ください。
+      </p>
+      <ul>
+        <li><strong>運営者：</strong>【運営者名を記載】</li>
+        <li><strong>メールアドレス：</strong>【連絡先メールアドレスを記載】</li>
+      </ul>
+      <p>
+        お問い合わせへの回答には、合理的な期間内に対応いたします。
+        内容によっては、回答にお時間をいただく場合や、回答できない場合があります。
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 【運営者名を記載】. All rights reserved.</p>
+    <p>SUTERU（ステル）</p>
+  </footer>
+</body>
+
+</html>
